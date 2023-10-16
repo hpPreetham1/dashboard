@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_dashboard{
+    background-color: rgba(13, 13, 39, 0.753);
+    width: 15vw;
+    height: 100vh;
+    padding:10px;
+    color: white;
+}
+
+.main_name{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.sub_names{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+ #shade{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9px;
+    gap: 15px;
+    height: max-content;
+    background-color: rgba(248, 247, 244, 0.11);
+    padding: 8px;
+}
+

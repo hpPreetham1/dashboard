@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card_container{
+    width:250px;
+    height: 140px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    gap: 10px;
+    background-color: beige;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgb(214, 213, 213);
+}
+
+.icon_container{
+    width: 50%;
+    height: 80%;
+    background-color: rgba(196, 79, 243, 0.61);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    
+}
+.earnicon{
+    font-size: 400%;
+    color: rgba(108, 44, 138, 0.925);
+    position: relative;
+    top: 10px;
+}
+
+.description{
+    width: 50%;
+    display: grid;
+    row-gap: 4px;
+}
+.description p{
+    font-size: small;
+    color: rgba(128, 128, 128, 0.507);
+}
+.description h5{
+    font-size: 19px;
+    font-weight: bolder;
+}
+.description span{
+    color: rgb(243, 24, 24);
+    font-size:14px ;
+    font-weight: bold;
+}
+
+
